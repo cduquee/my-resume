@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Camilo Duque | Projects</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body class="d-flex flex-column h-100 bg-light">
+    <main class="flex-shrink-0">
+      <!-- Navigation-->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light py-3">
+        <div
+          class="container mx-5 px-5 bg-blur border border-2 border-dark border-opacity-10 rounded-5"
+        >
+          <a class="navbar-brand py-3" href="index.html">
+            <img
+              style="width: 35px; height: auto"
+              src="./assets/img/heart.png"
+            />
+            <!-- <span class="fw-bolder text-primary">Resume</span>--></a
+          >
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+              <li class="nav-item">
+                <!-- <a class="nav-link" href="index.html">Home</a>-->
+                <a class="nav-link bi bi-house px-4 fs-5" href="index.html"></a>
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link" href="resume.html"
+                  >Resume</a>-->
+                <a
+                  class="nav-link bi-person-circle px-4 fs-5"
+                  href="resume.html"
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link bi bi-folder px-4 fs-5"
+                  href="projects.html"
+                ></a>
+                <!-- <a class="nav-link" href="projects.html">MyProjects</a>-->
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link bi bi-envelope ps-4 fs-5"
+                  href="contact.html"
+                ></a>
+                <!-- <a class="nav-link" href="contact.html">Contact</a>-->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Projects Section-->
+      <section class="py-5">
+        <div class="container px-5 mb-5">
+          <div class="text-center mb-5">
+            <h1 class="display-5 fw-bolder mb-0">
+              <span class="text-gradient d-inline">Projects</span>
+            </h1>
+          </div>
+          <div class="row gx-5 justify-content-center">
+            <div class="col-lg-11">
+              <!-- Project Card 1-->
+              <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                <div class="card-body p-0 m-3">
+                  <div class="row no-gutters">
+                    <!-- Image on the right -->
+                    <div class="col-md-4 d-flex align-items-center">
+                      <img
+                        class="rounded-4 card-img img-fluid img-no-margins"
+                        src="./assets/img/bda-operario.png"
+                        alt="Image of a worker from Banco de Alimentos de Bogotá"
+                      />
+                    </div>
+                    <!-- Content on the left -->
+                    <div class="col-md-8 p-5">
+                      <header>
+                        <h2 class="fw-bolder">Ali-Stock</h2>
+                        <h5>Banco de Alimentos de Bogotá</h5>
+                      </header>
+                      <section class="pt-2">
+                        <p class="text-justify">
+                          <strong>Reto:</strong> Crear herramienta digital que
+                          lanzara una alerta al equipo de compras cuando
+                          hubieran bajos niveles de inventario.
+                        </p>
+                        <p class="text-justify">
+                          <strong>Solución:</strong> Construyó una
+                          <i>web-app</i> con un modelo de machine learning para
+                          estimar la demanda. Dado la demanda estimada para el
+                          tiempo (t) y el lead time se estableció un
+                          <strong>Stock de Seguridad (SS)</strong> teniendo en
+                          cuenta la media (μ) y la desviación estándar (σ) de la
+                          demanda para un nivel de servicio de tipo I.
+                        </p>
+                        <div>
+                          <h4 class="fs-6"><strong>Herramientas:</strong></h4>
+                          <ul class="text-start ps-4">
+                            <li class="pb-1">Python (pandas, plotly, etc.)</li>
+                            <li class="pb-1">Prophet (Meta)</li>
+                            <li class="pb-1">Streamlit</li>
+                          </ul>
+                        </div>
+                      </section>
+                      <footer class="px-4 text-center">
+                        <i class="bi bi-trophy-fill link-warning pe-2"></i>
+                        1st Place Winner &nbsp;- &nbsp; Innovation Week Fair
+                        2023-2
+                      </footer>
+                      <div class="pt-2 text-center">
+                        <a
+                          class="btn btn-primary px-4 py-3 mx-3 mt-4"
+                          href="./assets/pdf/Presentacion_BAB.pdf"
+                          target="_blank"
+                        >
+                          <div class="d-inline-block bi bi-link pe-2">
+                            &nbsp; Elevator Pitch
+                          </div>
+                        </a>
+
+                        <a
+                          class="btn btn-primary px-4 py-3 mx-3 mt-4"
+                          href="./assets/pdf/Technical_Info.pdf"
+                          target="_blank"
+                        >
+                          <div class="d-inline-block bi bi-link pe-2">
+                            &nbsp; Technical Info
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Project Card 2-->
+              <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                <div class="card-body p-0 m-3">
+                  <div class="row no-gutters">
+                    <!-- Image on the left -->
+                    <div class="col-md-4 d-flex align-items-center">
+                      <!--class="rounded-4 card-img img-fluid img-contain"
+                        src="https://www.youtube.com/watch?v=vK79PBDiAB8"
+                        alt="Image of a worker from Banco de Alimentos de Bogotá"-->
+                      <iframe
+                        class="rounded-4 card-img img-fluid img-contain"
+                        src="https://www.youtube.com/embed/vK79PBDiAB8"
+                      >
+                      </iframe>
+                    </div>
+                    <!-- Content on the right -->
+                    <div class="col-md-8 p-5">
+                      <header>
+                        <h2 class="fw-bolder">Homies & Family</h2>
+                        <h3 class="fs-5">Simulación de Eventos Discretos</h3>
+                      </header>
+                      <section class="pt-2">
+                        <p class="text-justify">
+                          <strong> Reto:</strong> &nbsp; Alto
+                          <strong>tiempo de servicio (t)</strong>
+                          &nbsp; para entregar pedido generando insatisfacción
+                          en los clientes no solamente afectando la calidad del
+                          servicio, sino que además poniendo en riesgo la
+                          retención de los clientes y la imagen corporativa.
+                        </p>
+                        <p class="text-justify">
+                          <strong>Solución:</strong> Desarolló un
+                          <strong>Modelo de Simulación del Sistema Real</strong>
+                          teniendo en cuenta tiempo entre arribos, tiempo de
+                          servicio en caja, probabilidad de pedir hamburguesa,
+                          nuggets o ambos, tiempo de servicio en cocina, tiempos
+                          de espera, capacidad de servidores, etc. Despues de
+                          validar el modelo, se realizaron experimentos
+                          simulados como aumentar la capacidad de cocineros y
+                          evaluar el impacto en el tiempo de servicio y los
+                          costos asociados.
+                        </p>
+
+                        <div>
+                          <h4 class="fs-6"><strong>Herramientas:</strong></h4>
+                          <ul class="text-start ps-4">
+                            <li class="pb-1">SIMIO</li>
+                            <li class="pb-1">Probabilidad & Estadística II</li>
+                            <li class="pb-1">Microsoft Excel</li>
+                          </ul>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Card 3-->
+              <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                <div class="card-body p-0 m-3">
+                  <div class="row no-gutters">
+                    <!-- Image on the left -->
+                    <div class="col-md-4 d-flex align-items-center">
+                      <img
+                        class="rounded-4 card-img img-fluid img-contain"
+                        src="./assets/img/homocedasticidad.png"
+                        alt="Image of a worker from Banco de Alimentos de Bogotá"
+                      />
+                    </div>
+                    <!-- Content on the right -->
+                    <div class="col-md-8 p-5">
+                      <header>
+                        <h2 class="fw-bolder">Arquitectura de Software</h2>
+                        <h3 class="fs-5">Probabilidad & Estadística II</h3>
+                      </header>
+                      <section class="pt-2">
+                        <p class="text-justify">
+                          <strong>Reto:</strong> Una pequeña empresa enfrenta
+                          problemas de disponibilidad en su aplicación, pero
+                          carece del presupuesto necesario para replicar el
+                          sistema. Se propone abordar la situación mediante
+                          modelos predictivos, específicamente la regresión
+                          lineal.
+                        </p>
+                        <p class="text-justify"></p>
+                      </section>
+                      <strong>Solución:</strong> Realizo un Analisis Exporatorio
+                      con el fin de entender la distribución de las variables y
+                      su relacion con respecto a las otras variables y la
+                      variable de respuesta. Posteriormente se validaron todos
+                      los supuestos de modelos de modelos de regresion lineal
+                      para proceder la muestra. Se identificaron las variables
+                      que tenian un mayor efecto sobre el indice de
+                      indisponibilidad. Se respondieron a las preguntas del
+                      Gerente de TI, sobre estimar dadas unas variables
+                      explicativas puntales si el indice de indisponibilidad
+                      sería mayor a 350, construyendo un intervalo de confianza
+                      del valor esperado del indice de indisponibilidad.
+                      <div>
+                        <h4 class="fs-6"><strong>Herramientas:</strong></h4>
+                        <ul class="text-start ps-4">
+                          <li class="pb-1">RStudio</li>
+                          <li class="pb-1">Inferencia Estadística</li>
+                          <li class="pb-1">Prueba de Hipotesis</li>
+                          <li class="pb-1">
+                            Supuestos de Modelos de Regresión Lineal
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Call to action section-->
+      <section class="py-5 bg-gradient-primary-to-secondary text-white">
+        <div class="container px-5 my-5">
+          <div class="text-center">
+            <h2 class="display-4 fw-bolder mb-4">
+              Let's build something together
+            </h2>
+            <a
+              class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder"
+              href="contact.html"
+              >Contact me</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer-->
+    <footer class="bg-white py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0">
+              Copyright &copy; 2024 Camilo Duque | All rights reserved.
+            </div>
+          </div>
+          <div class="col-auto">
+            <a class="small" href="#!">Privacy</a>
+            <span class="mx-1">&middot;</span>
+            <a class="small" href="#!">Terms</a>
+            <span class="mx-1">&middot;</span>
+            <a class="small" href="#!">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
