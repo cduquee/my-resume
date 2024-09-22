@@ -25,6 +25,11 @@
     />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      id="MathJax-script"
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
   </head>
 
   <body class="d-flex flex-column h-100 bg-light">
@@ -148,7 +153,7 @@
                           href="./assets/pdf/Presentacion_BAB.pdf"
                           target="_blank"
                         >
-                          <div class="d-inline-block bi bi-link pe-2">
+                          <div class="d-inline-block bi bi-download pe-2">
                             &nbsp; Elevator Pitch
                           </div>
                         </a>
@@ -158,7 +163,7 @@
                           href="./assets/pdf/Technical_Info.pdf"
                           target="_blank"
                         >
-                          <div class="d-inline-block bi bi-link pe-2">
+                          <div class="d-inline-block bi bi-download pe-2">
                             &nbsp; Technical Info
                           </div>
                         </a>
@@ -251,31 +256,63 @@
                           modelos predictivos, específicamente la regresión
                           lineal.
                         </p>
-                        <p class="text-justify"></p>
+                        <p class="text-justify">
+                          <strong>Solución:</strong> Realizo un Analisis
+                          Exporatorio con el fin de entender la distribución de
+                          las variables explicativas y su comportamiento entre
+                          ellas mismas y la variable de respuesta.
+                          Posteriormente se validaron todos los supuestos de
+                          modelos de regresión lineal para realizar inferencia
+                          estadística:
+                          <strong
+                            >Normalidad de Residuos, Homocedasticidad,
+                            Especificación, Independencia Lineal de los Residuos
+                            y Multicolinealidad</strong
+                          >. Se identificaron las variables que tenian un mayor
+                          efecto sobre el indice de indisponibilidad: %Errores y
+                          Peticion PUT. Se respondieron a las preguntas del
+                          Gerente de TI, dados unas condiciones (%Errores,
+                          FranjaHoraria, CPU, LatenciaMax, etc.) se determino si
+                          el sistema pudiera llegar a tener un indice de
+                          indisponiblidad mayor a 350 puntos \((A)\), Se
+                          concluyó que el indice de indisponibilidad no va ser
+                          mayor que 350 puntos, ya que:
+                          <span class="text-center d-block p-2"
+                            >\( A = [350, \infty) \)</span
+                          >
+                          <span class="text-center d-block p-2"
+                            >\( B = [260.18, 302.78] \)</span
+                          >
+                          <span class="text-center d-block p-2"
+                            >\( A \cap B = \emptyset \)</span
+                          >
+                          Es decir, no hay intersección entre el intervalo del
+                          Gerente de TI \((A)\) y el intervalo de predicción
+                          \((B)\).
+                        </p>
+                        <div>
+                          <h4 class="fs-6"><strong>Herramientas:</strong></h4>
+                          <ul class="text-start ps-4">
+                            <li class="pb-1">RStudio</li>
+                            <li class="pb-1">Inferencia Estadística</li>
+                            <li class="pb-1">Prueba de Hipotesis</li>
+                            <li class="pb-1">
+                              Supuestos de Modelos de Regresión Lineal
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="pt-2 text-center">
+                          <a
+                            class="btn btn-primary px-4 py-3 mx-3 mt-4"
+                            href="./assets/pdf/Proyecto Regresion Lineal - Grupo 37.pdf"
+                            target="_blank"
+                          >
+                            <div class="d-inline-block bi bi-download pe-2">
+                              &nbsp; Presentación
+                            </div>
+                          </a>
+                        </div>
                       </section>
-                      <strong>Solución:</strong> Realizo un Analisis Exporatorio
-                      con el fin de entender la distribución de las variables y
-                      su relacion con respecto a las otras variables y la
-                      variable de respuesta. Posteriormente se validaron todos
-                      los supuestos de modelos de modelos de regresion lineal
-                      para proceder la muestra. Se identificaron las variables
-                      que tenian un mayor efecto sobre el indice de
-                      indisponibilidad. Se respondieron a las preguntas del
-                      Gerente de TI, sobre estimar dadas unas variables
-                      explicativas puntales si el indice de indisponibilidad
-                      sería mayor a 350, construyendo un intervalo de confianza
-                      del valor esperado del indice de indisponibilidad.
-                      <div>
-                        <h4 class="fs-6"><strong>Herramientas:</strong></h4>
-                        <ul class="text-start ps-4">
-                          <li class="pb-1">RStudio</li>
-                          <li class="pb-1">Inferencia Estadística</li>
-                          <li class="pb-1">Prueba de Hipotesis</li>
-                          <li class="pb-1">
-                            Supuestos de Modelos de Regresión Lineal
-                          </li>
-                        </ul>
-                      </div>
                     </div>
                   </div>
                 </div>
