@@ -13735,8 +13735,20 @@ html {
 
 /* My own CSS classes*/
 
-.custom:hover {
+.hv-1:hover {
+  transform: scale(1.02);
+}
+.hv-2:hover {
   transform: scale(1.04);
+}
+.hv-3:hover {
+  transform: scale(1.06);
+}
+.hv-4:hover {
+  transform: scale(1.08);
+}
+.hv-5:hover {
+  transform: scale(1.10);
 }
 
 i:hover {
@@ -13776,4 +13788,14 @@ i:hover {
   object-fit: contain;
   max-height: 5vh;
   height: auto;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.box>* {
+  flex: 1 1 160px;
 }
